@@ -1,0 +1,13 @@
+<h1>Hola soy lele</h1>
+<h2>usuarios</h2>
+<ol>
+    {% for usuario in usuarios %}
+        <li>{{ usuario.username }}</li>
+    {% endfor %}
+</ol>
+<h2>correos</h2>
+<ol>
+    {% for usuario in usuarios %}
+        <li>{{ usuario.email }}</li>
+    {% endfor %}
+</ol>
